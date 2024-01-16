@@ -29,14 +29,14 @@ describe('DOM', () => {
 	});
 
 	it("should be able to return element attribute data via 'createElementAttribute' function", () => {
-		const srcData = createElementAttribute('alt', 'drawer');
+		const altData = createElementAttribute('alt', 'drawer');
 
-		const expectedSrcData = {
+		const expectedAltData = {
 			name: 'alt',
 			value: 'drawer',
 		};
 
-		assert.deepEqual(srcData, expectedSrcData);
+		assert.deepEqual(altData, expectedAltData);
 	});
 
 	it("should be able to create header element via 'createHeaderEl' function", () => {
