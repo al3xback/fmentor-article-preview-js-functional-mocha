@@ -21,7 +21,7 @@ describe('DOM', () => {
 	});
 
 	it("should be able to create element via 'createElement' function", () => {
-		const divEl = createElement('div', 'wrapper', 'Lorem ipsum');
+		const divEl = createElement('div', 'wrapper', 'Some content');
 		document.body.appendChild(divEl);
 
 		const isDivElExist = !!document.querySelector('.wrapper');
